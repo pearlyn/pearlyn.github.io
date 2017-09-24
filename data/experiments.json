@@ -35,12 +35,6 @@
             "granularity": "phrase",
             "data_file": "data/texts.json",
             "stimuli": "number of positive charges" 
-        }
-        { 
-            "technique": "TRADITIONAL", 
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "stimuli": "what is AC coupling?" 
-        }            
+        }        
     ]
 }
