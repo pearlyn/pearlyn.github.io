@@ -108,9 +108,9 @@
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "sentence",
-            "data_file": "data/texts.json",
-            "windows": "multiple",
-            "stimuli": "Device used to transform mechanical energy into AC electrical power." 
+            "data_file": "data/textsarticle5.json",
+            "windows": "single",
+            "stimuli": "A DC voltage source containing two or more cells that convert chemical energy to electrical energy." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
