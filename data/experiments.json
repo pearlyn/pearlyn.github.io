@@ -4,6 +4,7 @@
             "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "data_file": "data/textsdata1.json",
+            "windows": "1",
             "stimuli": "A filter that uses an amplifier" 
         },
         { 
