@@ -4,73 +4,84 @@
             "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "data_file": "data/textsdata1.json",
-            "windows": "1",
+            "windows": "single",
             "stimuli": "A filter that uses an amplifier" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "sentence",
             "data_file": "data/textsdata2.json",
+            "windows": "single",
             "stimuli": "An electric current that rises to a maximum in one direction, falls back to zero and then rises to a maximum in the opposite direction and then repeats." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "data_file": "data/textsarticle3.json",
+            "windows": "single",
             "stimuli": "What is antenna, receiving? A device that converts a radiated electromagnetic wave into an electrical wave." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "data_file": "data/texts.json",
+            "windows": "multiple",
             "stimuli": "number of positive charges" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "sentence",
             "data_file": "data/texts.json",
+            "windows": "multiple",
             "stimuli": "What is acceptor atoms?" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "data_file": "data/texts.json",
+            "windows": "multiple",
             "stimuli": "What is AC coupling? Circuit that passes an AC signal while blocking a DC voltage." 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "data_file": "data/texts.json",
+            "windows": "multiple",
             "stimuli": "What is AC power supply?"
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "data_file": "data/texts.json",
+            "windows": "multiple",
             "stimuli": "(BJT), A three terminal device in which emitter to collector current is controlled by base current."
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "data_file": "data/texts.json",
+            "windows": "multiple",
             "stimuli": "What is ammeter? A meter used to measure current."
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "phrase",
             "data_file": "data/textsarticle3.json",
+            "windows": "single",
             "stimuli": "What is analog?" 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "sentence",
             "data_file": "data/textsarticle4.json",
+            "windows": "single",
             "stimuli": "A tuned circuit designed to pass a band of frequencies between a lower cut-off frequency (f1) and a higher cut-off frequency (f2). Frequencies above and below the pass band are heavily attenuated." 
         },
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "data_file": "data/textsdata2.json",
+            "windows": "single",
             "stimuli": "What is ammeter? A meter used to measure current."
         }
     ]
