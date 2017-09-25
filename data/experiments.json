@@ -3,23 +3,16 @@
         { 
             "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
-            "data_file": "data/textsdata1.json",
-            "windows": "single",
-            "stimuli": "uses an amplifier" 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
             "data_file": "data/texts.json",
             "windows": "multiple",
             "stimuli": "barrier potential?" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
-            "data_file": "data/textsdata2.json",
+            "granularity": "phrase",
+            "data_file": "data/textsdata1.json",
             "windows": "single",
-            "stimuli": "An electric current that rises to a maximum in one direction, falls back to zero and then rises to a maximum in the opposite direction and then repeats." 
+            "stimuli": "uses an amplifier" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
@@ -30,10 +23,10 @@
         },
         { 
             "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "data_file": "data/textsarticle3.json",
+            "granularity": "sentence",
+            "data_file": "data/textsdata2.json",
             "windows": "single",
-            "stimuli": "What is antenna, receiving? A device that converts a radiated electromagnetic wave into an electrical wave." 
+            "stimuli": "An electric current that rises to a maximum in one direction, falls back to zero and then rises to a maximum in the opposite direction and then repeats." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
@@ -43,11 +36,11 @@
             "stimuli": "What is active region? The region of BJT operation between saturation and cut off used for linear amplification." 
         },
         { 
-            "technique": "TRADITIONAL", 
-            "granularity": "phrase",
-            "data_file": "data/textsdata2.json",
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
+            "data_file": "data/textsarticle3.json",
             "windows": "single",
-            "stimuli": "alligator clip?"
+            "stimuli": "What is antenna, receiving? A device that converts a radiated electromagnetic wave into an electrical wave." 
         },
         { 
             "technique": "TRADITIONAL", 
@@ -58,10 +51,10 @@
         },
         { 
             "technique": "TRADITIONAL", 
-            "granularity": "sentence",
-            "data_file": "data/textsarticle6.json",
+            "granularity": "phrase",
+            "data_file": "data/textsdata2.json",
             "windows": "single",
-            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')."
+            "stimuli": "alligator clip?"
         },
         { 
             "technique": "TRADITIONAL", 
@@ -72,10 +65,10 @@
         },
         { 
             "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
-            "data_file": "data/textsdata2.json",
+            "granularity": "sentence",
+            "data_file": "data/textsarticle6.json",
             "windows": "single",
-            "stimuli": "What is alternator? Name for an AC generator." 
+            "stimuli": "Traditionally in English, an article is usually considered to be a type of adjective. In some languages, articles are a special part of speech, which cannot easily be combined with other parts of speech. It is also possible for articles to be part of another part of speech category such as a determiner, an English part of speech category that combines articles and demonstratives (such as 'this' and 'that')."
         },
         { 
             "technique": "TRADITIONAL", 
@@ -85,11 +78,11 @@
             "stimuli": "What is active filter? A filter that uses an amplifier in addition to reactive components to pass or reject selected frequencies." 
         },
         { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "phrase",
-            "data_file": "data/texts.json",
-            "windows": "multiple",
-            "stimuli": "transform mechanical energy" 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "data_file": "data/textsdata2.json",
+            "windows": "single",
+            "stimuli": "What is alternator? Name for an AC generator." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
@@ -100,10 +93,10 @@
         },
         { 
             "technique": "AUTOCOMPASTE", 
-            "granularity": "sentence",
+            "granularity": "phrase",
             "data_file": "data/texts.json",
             "windows": "multiple",
-            "stimuli": "Device used to transform mechanical energy into AC electrical power." 
+            "stimuli": "transform mechanical energy" 
         },
         { 
             "technique": "AUTOCOMPASTE", 
@@ -114,10 +107,10 @@
         },
         { 
             "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
+            "granularity": "sentence",
             "data_file": "data/texts.json",
             "windows": "multiple",
-            "stimuli": "What is active region? The region of BJT operation between saturation and cut off used for linear amplification." 
+            "stimuli": "Device used to transform mechanical energy into AC electrical power." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
@@ -127,11 +120,11 @@
             "stimuli": "What is ammeter? A meter used to measure current." 
         },
         { 
-            "technique": "TRADITIONAL", 
-            "granularity": "phrase",
+            "technique": "AUTOCOMPASTE", 
+            "granularity": "paragraph",
             "data_file": "data/texts.json",
             "windows": "multiple",
-            "stimuli": "other adjectives and determiners"
+            "stimuli": "What is active region? The region of BJT operation between saturation and cut off used for linear amplification." 
         },
         { 
             "technique": "TRADITIONAL", 
@@ -142,10 +135,10 @@
         },
         { 
             "technique": "TRADITIONAL", 
-            "granularity": "sentence",
+            "granularity": "phrase",
             "data_file": "data/texts.json",
             "windows": "multiple",
-            "stimuli": "Power attained in an AC circuit as a product of effective voltage and current which reach their peak at different times."
+            "stimuli": "other adjectives and determiners"
         },
         { 
             "technique": "TRADITIONAL", 
@@ -156,10 +149,10 @@
         },
         { 
             "technique": "TRADITIONAL", 
-            "granularity": "paragraph",
+            "granularity": "sentence",
             "data_file": "data/texts.json",
             "windows": "multiple",
-            "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number. Every noun must be accompanied by the article, if any, corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness. This is in contrast to other adjectives and determiners, which are typically optional. This obligatory nature of articles makes them among the most common words in many languages - in English, for example, the most frequent word is the."
+            "stimuli": "Power attained in an AC circuit as a product of effective voltage and current which reach their peak at different times."
         },
         { 
             "technique": "TRADITIONAL", 
@@ -167,6 +160,13 @@
             "data_file": "data/textsdata1.json",
             "windows": "single",
             "stimuli": "What is active component? A component that changes the amplitude of a signal between input and output."
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "windows": "multiple",
+            "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number. Every noun must be accompanied by the article, if any, corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness. This is in contrast to other adjectives and determiners, which are typically optional. This obligatory nature of articles makes them among the most common words in many languages - in English, for example, the most frequent word is the."
         }
     ]
 }
