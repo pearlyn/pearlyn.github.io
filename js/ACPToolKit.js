@@ -96,6 +96,15 @@ var ACPToolKit = (function () {
             $('#autocompaste-measure-text-length-in-pixels').remove();
             $('#autocompaste-completion').remove();
 
+            switch (options.windows) {
+                case'single'
+                var engine = null;
+                break;
+                case'multiple'
+                var engine = new AutoComPaste.Engine();
+                break;
+            }
+
             switch (options.technique) {
                 case 'TRADITIONAL':
                     var engine = null;
