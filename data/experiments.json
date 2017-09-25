@@ -73,7 +73,7 @@
         { 
             "technique": "TRADITIONAL", 
             "granularity": "paragraph",
-            "data_file": "data/textsarticle4.json",
+            "data_file": "data/textsdata2.json",
             "windows": "single",
             "stimuli": "What is alternator? Name for an AC generator." 
         },
