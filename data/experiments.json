@@ -2,20 +2,6 @@
     "experiments": [
         { 
             "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "data_file": "data/textsarticle3.json",
-            "windows": "single",
-            "stimuli": "What is antenna, receiving? A device that converts a radiated electromagnetic wave into an electrical wave." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "windows": "multiple",
-            "stimuli": "What is active region? The region of BJT operation between saturation and cut off used for linear amplification." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
             "granularity": "phrase",
             "data_file": "data/textsdata1.json",
             "windows": "single",
@@ -43,18 +29,18 @@
             "stimuli": "Condition that occurs when a bridge circuit is adjusted to produce a zero output." 
         },
         { 
-            "technique": "TRADITIONAL", 
+            "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
-            "data_file": "data/textsdata2.json",
+            "data_file": "data/textsarticle3.json",
             "windows": "single",
-            "stimuli": "What is alternator? Name for an AC generator." 
+            "stimuli": "What is antenna, receiving? A device that converts a radiated electromagnetic wave into an electrical wave." 
         },
         { 
-            "technique": "TRADITIONAL", 
+            "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "data_file": "data/texts.json",
             "windows": "multiple",
-            "stimuli": "What is active filter? A filter that uses an amplifier in addition to reactive components to pass or reject selected frequencies." 
+            "stimuli": "What is active region? The region of BJT operation between saturation and cut off used for linear amplification." 
         },
         { 
             "technique": "TRADITIONAL", 
@@ -85,18 +71,18 @@
             "stimuli": "A number system having only two symbols, 0 and 1. A base 2 number system." 
         },
         { 
-            "technique": "AUTOCOMPASTE", 
-            "granularity": "paragraph",
-            "data_file": "data/texts.json",
-            "windows": "multiple",
-            "stimuli": "What is active region? The region of BJT operation between saturation and cut off used for linear amplification." 
-        },
-        { 
-            "technique": "AUTOCOMPASTE", 
+            "technique": "TRADITIONAL", 
             "granularity": "paragraph",
             "data_file": "data/textsdata2.json",
             "windows": "single",
-            "stimuli": "What is ammeter? A meter used to measure current." 
+            "stimuli": "What is alternator? Name for an AC generator." 
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "windows": "multiple",
+            "stimuli": "What is active filter? A filter that uses an amplifier in addition to reactive components to pass or reject selected frequencies." 
         },
         { 
             "technique": "AUTOCOMPASTE", 
@@ -127,18 +113,18 @@
             "stimuli": "A DC voltage source containing two or more cells that convert chemical energy to electrical energy." 
         },
         { 
-            "technique": "TRADITIONAL", 
+            "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
             "data_file": "data/texts.json",
             "windows": "multiple",
-            "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number. Every noun must be accompanied by the article, if any, corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness. This is in contrast to other adjectives and determiners, which are typically optional. This obligatory nature of articles makes them among the most common words in many languages - in English, for example, the most frequent word is the."
+            "stimuli": "What is active region? The region of BJT operation between saturation and cut off used for linear amplification." 
         },
         { 
-            "technique": "TRADITIONAL", 
+            "technique": "AUTOCOMPASTE", 
             "granularity": "paragraph",
-            "data_file": "data/textsdata1.json",
+            "data_file": "data/textsdata2.json",
             "windows": "single",
-            "stimuli": "What is active component? A component that changes the amplitude of a signal between input and output."
+            "stimuli": "What is ammeter? A meter used to measure current." 
         },
         { 
             "technique": "TRADITIONAL", 
@@ -167,6 +153,20 @@
             "data_file": "data/textsarticle5.json",
             "windows": "single",
             "stimuli": "Width of the band of frequencies between the half power points."
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "data_file": "data/texts.json",
+            "windows": "multiple",
+            "stimuli": "In languages that employ articles, every common noun, with some exceptions, is expressed with a certain definiteness, just as many languages express every noun with a certain grammatical number. Every noun must be accompanied by the article, if any, corresponding to its definiteness, and the lack of an article (considered a zero article) itself specifies a certain definiteness. This is in contrast to other adjectives and determiners, which are typically optional. This obligatory nature of articles makes them among the most common words in many languages - in English, for example, the most frequent word is the."
+        },
+        { 
+            "technique": "TRADITIONAL", 
+            "granularity": "paragraph",
+            "data_file": "data/textsdata1.json",
+            "windows": "single",
+            "stimuli": "What is active component? A component that changes the amplitude of a signal between input and output."
         }
     ]
 }
