@@ -167,6 +167,6 @@
             "data_file": "data/textsdata2.json",
             "windows": "single",
             "stimuli": "What is ammeter? A meter used to measure current." 
-        },
+        }
     ]
 }
