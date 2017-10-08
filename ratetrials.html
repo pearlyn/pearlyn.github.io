@@ -24,8 +24,7 @@
                         <li><a href="questionnaire-pre.html">Pre Questionnaire</a></li>
                         <li><a href="instructions.html">Instructions</a></li>
                         <li><a href="experiment.html">Experiment</a></li>
-                        <li><a href="ratetrials.html">Rate Trials</a></li>
-                        <li class="active"><a href="questionnaire-post.html">Post Questionnaire</a></li>
+                        <li class="active"><a href="ratetrials.html">Rate Trials</a></li>
                     </ul>
                 </div>
             </div>
@@ -415,13 +414,12 @@
 
         <script>
             $(function () {
-                $('#post-expt-form').submit(function (event) {
+                $('#rate-expt-form').submit(function (event) {
                     event.preventDefault();
                     var formResponses = $(this).serializeArray();
                     // Do your own form validation here.
-                    ACPToolKit.downloadFormData(formResponses, 'post');
-                    ACPToolKit.clearAllData();
-                    alert('Thank you for your participation!');
+                    ACPToolKit.downloadFormData(formResponses, 'rate');
+                    window.location = 'questionnaire-post.html';
                 });
             });
         </script>
