@@ -34,13 +34,81 @@
          <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                    <h1>Pre-Experiment Questionnaire</h1>
+                    <h1>Rate Trials</h1>
                     <hr>
-                    <p>This part of the interface collects whatever pre-experiment information. Please come up with a basic questionnaire to help you to gather participant information. The purpose of this questionnaire is to report the participant data and convince readers that you have picked an appropriate target user group and the result has certain generalizability.</p>
+                    <p>As per instructions, please input your ratings for ease of use for each trial.</p>
 
                     <p>Please put all information needed for participant: <span class="js-pid pid"></span></p>
 
                     <form id="pre-expt-form">
+                           <div class="form-group">
+                            <label for="q1">Rate the ease of use for the following trials:</label>
+                            <br />
+                            <label for="q1a">Trial 1</label>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q1a" id="optionsRadios1" value="-100">
+                                  1 - Very user unfriendly
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q1a" id="optionsRadios2" value="-50">
+                                2 - User unfriendly
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q1a" id="optionsRadios3" value="0">
+                                 3 - Neutral
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q1a" id="optionsRadios4" value="50">
+                                User friendly
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q1a" id="optionsRadios4" value="100">
+                                Very User friendly
+                              </label>
+                            </div>
+                        </div>
+                          <div class="form-group">
+                            <label for="q1">Rate the ease of use for the following trials:</label>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q1" id="optionsRadios1" value="1">
+                                1 - Very Dissatisfied
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q1" id="optionsRadios2" value="2">
+                                2 - Dissatisfied
+                              </label>
+                            </div>
+                             <div class="radio">
+                              <label>
+                                <input type="radio" name="q1" id="optionsRadios3" value="3">
+                                3 - Neutral
+                              </label>
+                            </div>
+                             <div class="radio">
+                              <label>
+                                <input type="radio" name="q1" id="optionsRadios4" value="4">
+                                4 - Satisfied
+                              </label>
+                            </div>
+                               <div class="radio">
+                              <label>
+                                <input type="radio" name="q1" id="optionsRadios5" value="5">
+                                5 - Very Satisfied
+                              </label>
+                            </div>
+                        </div>
                         <div class="form-group">
                             <label for="q1">Name</label>
                             <input type="text" class="form-control" id="q1" name="q1" placeholder="Enter name">
