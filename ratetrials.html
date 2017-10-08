@@ -241,11 +241,11 @@
 
         <script>
             $(function () {
-                $('#rate-expt-form').submit(function (event) {
+                $('#pre-expt-form').submit(function (event) {
                     event.preventDefault();
                     var formResponses = $(this).serializeArray();
                     // Do your own form validation here.
-                    ACPToolKit.downloadFormData(formResponses, 'rate');
+                    ACPToolKit.downloadFormData(formResponses, 'pre');
                     window.location = 'questionnaire-post.html';
                 });
             });
