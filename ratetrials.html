@@ -31,375 +31,201 @@
             </div>
         </nav>
 
-        <div class="container">
+         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
-                    <h1>Post-Experiment Questionnaire</h1>
+                    <h1>Pre-Experiment Questionnaire</h1>
                     <hr>
-                    <p>This part of the interface collects whatever post-experiment information. After the experiment, you want to collect more qualitative and quantitative feedback about the tested techniques. Some of the typical questions include, personal preferences, any difficulties participants experienced in the experiment, and areas of improvement. Please design a basic post-experimental questionnaire (no more than 10 questions).</p>
+                    <p>This part of the interface collects whatever pre-experiment information. Please come up with a basic questionnaire to help you to gather participant information. The purpose of this questionnaire is to report the participant data and convince readers that you have picked an appropriate target user group and the result has certain generalizability.</p>
 
-                    <p>Current participant: <span class="js-pid pid"></span></p>
+                    <p>Please put all information needed for participant: <span class="js-pid pid"></span></p>
 
-                    <form id="post-expt-form">
+                    <form id="pre-expt-form">
                         <div class="form-group">
-                            <label for="q1">Qn 1: On a 5 point scale, rate the AutoComPaste technique, 1 being very dissatisfied to 5 being very satisfied.</label>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="q1" id="optionsRadios1" value="1">
-                                1 - Very Dissatisfied
-                              </label>
-                            </div>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="q1" id="optionsRadios2" value="2">
-                                2 - Dissatisfied
-                              </label>
-                            </div>
-                             <div class="radio">
-                              <label>
-                                <input type="radio" name="q1" id="optionsRadios3" value="3">
-                                3 - Neutral
-                              </label>
-                            </div>
-                             <div class="radio">
-                              <label>
-                                <input type="radio" name="q1" id="optionsRadios4" value="4">
-                                4 - Satisfied
-                              </label>
-                            </div>
-                               <div class="radio">
-                              <label>
-                                <input type="radio" name="q1" id="optionsRadios5" value="5">
-                                5 - Very Satisfied
-                              </label>
-                            </div>
+                            <label for="q1">Name</label>
+                            <input type="text" class="form-control" id="q1" name="q1" placeholder="Enter name">
                         </div>
                         <div class="form-group">
-                            <label for="q2">Qn 2: On a 5 point scale, rate the traditional copy-paste technique (Ctrl-C + Ctrl-V), 1 being very dissatisfied to 5 being very satisfied.</label>
+                            <label for="q2">Gender</label>
                             <div class="radio">
                               <label>
-                                <input type="radio" name="q2" id="optionsRadios1" value="1">
-                                1 - Very Dissatisfied
+                                <input type="radio" name="q2" id="optionsRadios1" value="male">
+                                Male
                               </label>
                             </div>
                             <div class="radio">
                               <label>
-                                <input type="radio" name="q2" id="optionsRadios2" value="2">
-                                2 - Dissatisfied
-                              </label>
-                            </div>
-                             <div class="radio">
-                              <label>
-                                <input type="radio" name="q2" id="optionsRadios3" value="3">
-                                3 - Neutral
-                              </label>
-                            </div>
-                             <div class="radio">
-                              <label>
-                                <input type="radio" name="q2" id="optionsRadios4" value="4">
-                                4 - Satisfied
-                              </label>
-                            </div>
-                               <div class="radio">
-                              <label>
-                                <input type="radio" name="q2" id="optionsRadios5" value="5">
-                                5 - Very Satisfied
+                                <input type="radio" name="q2" id="optionsRadios2" value="female">
+                                Female
                               </label>
                             </div>
                         </div>
                          <div class="form-group">
-                            <label for="q3">Qn 3: Which of the following factors is most important to you when choosing between AutoComPaste technique and Traditional copy-paste technique (Ctrl-C + Ctrl-V)?</label>
+                            <label for="q3">Select age group</label>
                             <div class="radio">
                               <label>
-                                <input type="radio" name="q3" id="optionsRadios1" value="easy to learn">
-                                Easy to learn
+                                <input type="radio" name="q3" id="optionsRadios1" value="Less than 20">
+                                Less than 20
                               </label>
                             </div>
                             <div class="radio">
                               <label>
-                                <input type="radio" name="q3" id="optionsRadios2" value="accurate">
-                                Accurate
+                                <input type="radio" name="q3" id="optionsRadios2" value="20 - 24">
+                                20 - 24
                               </label>
                             </div>
                              <div class="radio">
                               <label>
-                                <input type="radio" name="q3" id="optionsRadios3" value="fast">
-                                Fast
+                                <input type="radio" name="q3" id="optionsRadios2" value="25 - 29">
+                                25 - 29
+                              </label>
+                            </div>
+                             <div class="radio">
+                              <label>
+                                <input type="radio" name="q3" id="optionsRadios2" value="30 - 34">
+                                30 - 34
+                              </label>
+                            </div>
+                             <div class="radio">
+                              <label>
+                                <input type="radio" name="q3" id="optionsRadios2" value="35 - 39">
+                                35 - 39
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q3" id="optionsRadios2" value="40 - 44">
+                                40 - 44
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q3" id="optionsRadios2" value="45 - 49">
+                                45 - 49
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q3" id="optionsRadios2" value="50 - 54">
+                                50 - 54
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q3" id="optionsRadios2" value="55 and above">
+                                55 and above
                               </label>
                             </div>
                         </div>
-                        <div class="form-group">
-                            <label for="q4">Qn 4: Indicate your level of agreement with the following factors that describes AutoComPaste technique</label>
+                         <div class="form-group">
+                            <label for="q4">Select your education level</label>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q4" id="optionsRadios1" value="No formal education">
+                                No formal education
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q4" id="optionsRadios2" value="Primary">
+                                Primary
+                              </label>
+                            </div>
+                             <div class="radio">
+                              <label>
+                                <input type="radio" name="q4" id="optionsRadios3" value="Secondary/ITE">
+                                Secondary/ITE
+                              </label>
+                            </div>
+                             <div class="radio">
+                              <label>
+                                <input type="radio" name="q4" id="optionsRadios4" value="Pre-University/Junior College">
+                                Pre-University/Junior College
+                              </label>
+                            </div>
+                             <div class="radio">
+                              <label>
+                                <input type="radio" name="q4" id="optionsRadios5" value="Polytechnic/Other Diploma Holders">
+                                Polytechnic/Other Diploma Holders
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q4" id="optionsRadios6" value="University/Post-Graduate">
+                                University/Post-Graduate
+                              </label>
+                            </div>
+                        </div>
+                         <div class="form-group">
+                            <label for="q5">How often do you use copy paste function?</label>
+                            <select class="form-control" name="q5">
+                                <option value=""></option>
+                                <option value="Regularly">Regularly</option>
+                                <option value="Occasionally">Occasionally</option>
+                                <option value="Never">Never</option>
+                            </select>
+                        </div>
+                         <div class="form-group">
+                            <label for="q6">Do you prefer to type out or use copy paste function based on the following text granularity:</label>
                             <br />
-                            <label for="q4a">A. Easy to learn</label>
+                            <label for="q6a">A. Word</label>
                             <div class="radio">
                               <label>
-                                <input type="radio" name="q4a" id="optionsRadios1" value="Easy to learn:Strongly Agree">
-                                Strongly Agree
+                                <input type="radio" name="q6a" id="optionsRadios1" value="Word:Type">
+                                Type
                               </label>
                             </div>
                             <div class="radio">
                               <label>
-                                <input type="radio" name="q4a" id="optionsRadios2" value="Easy to learn:Agree">
-                                Agree
+                                <input type="radio" name="q6a" id="optionsRadios2" value="Word:Copy-paste">
+                                Copy-paste
+                              </label>
+                            </div>
+                        </div>
+                         <div class="form-group">
+                            <label for="q6b">B: Phrase</label>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="q6b" id="optionsRadios1" value="Phrase:Type">
+                                Type
                               </label>
                             </div>
                             <div class="radio">
                               <label>
-                                <input type="radio" name="q4a" id="optionsRadios3" value="Easy to learn:Disagree">
-                                Disagree
-                              </label>
-                            </div>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="q4a" id="optionsRadios4" value="Easy to learn:Strongly Disagree">
-                                Strongly Disagree
+                                <input type="radio" name="q6b" id="optionsRadios2" value="Phrase:Copy-paste">
+                                Copy-paste
                               </label>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="q4b">B. Accurate</label>
+                            <label for="q6c">C: Sentence</label>
                             <div class="radio">
                               <label>
-                                <input type="radio" name="q4b" id="optionsRadios1" value="Accurate:Strongly Agree">
-                                Strongly Agree
+                                <input type="radio" name="q6c" id="optionsRadios1" value="Sentence:Type">
+                                Type
                               </label>
                             </div>
                             <div class="radio">
                               <label>
-                                <input type="radio" name="q4b" id="optionsRadios2" value="Accurate:Agree">
-                                Agree
-                              </label>
-                            </div>
-                             <div class="radio">
-                              <label>
-                                <input type="radio" name="q4b" id="optionsRadios3" value="Accurate:Disagree">
-                                Disagree
-                              </label>
-                            </div>
-                             <div class="radio">
-                              <label>
-                                <input type="radio" name="q4b" id="optionsRadios4" value="Accurate:Strongly Disagree">
-                                Strongly Disagree
+                                <input type="radio" name="q6c" id="optionsRadios2" value="Sentence:Copy-paste">
+                                Copy-paste
                               </label>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="q4c">C. Fast</label>
+                            <label for="q6c">D: Paragraph</label>
                             <div class="radio">
                               <label>
-                                <input type="radio" name="q4c" id="optionsRadios1" value="Fast:Strongly Agree">
-                                Strongly Agree
-                              </label>
-                            </div>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="q4c" id="optionsRadios2" value="Fast:Agree">
-                                Agree
-                              </label>
-                            </div>
-                             <div class="radio">
-                              <label>
-                                <input type="radio" name="q4c" id="optionsRadios3" value="Fast:Disagree">
-                                Disagree
-                              </label>
-                            </div>
-                             <div class="radio">
-                              <label>
-                                <input type="radio" name="q4c" id="optionsRadios4" value="Fast:Strongly Disagree">
-                                Strongly Disagree
-                              </label>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="q5">Qn 5: What are the challenges in using AutoComPaste technique? (you may choose up to 3 challenges)</label>
-                            <div class="checkbox">
-                              <label>
-                                <input type="checkbox" name="q5" value="needtoselectfrmresults">
-                                Need to select from the list of search results
-                              </label>
-                            </div>
-                            <div class="checkbox">
-                              <label>
-                                <input type="checkbox" name="q5" value="unabletoshowfullsentence">
-                                Search results is unable to show the full sentence unless I select it
-                              </label>
-                            </div>
-                             <div class="checkbox">
-                              <label>
-                                <input type="checkbox" name="q5" value="misspellingofkeywords">
-                                Misspelling of the keywords which can affect the search results
-                              </label>
-                            </div>
-                            <div class="checkbox">
-                              <label>
-                                <input type="checkbox" name="q5" value="toomanysearchresults">
-                                Too many search results
-                              </label>
-                            </div>
-                            <div class="checkbox">
-                              <label>
-                                <input type="checkbox" name="q5" value="needtotypelongerkeywords">
-                                Need to type longer keywords to narrow the search results
-                              </label>
-                            </div>
-                        </div>
-                         <div class="form-group">
-                            <label for="q5others"></label>
-                            <textarea class="form-control" id="q5others" name="q5others" placeholder="Others, please specify."></textarea>
-                        </div>
-                        <div class="form-group">
-                            <label for="q6">Qn 6: What are the areas for improvement for AutoComPaste technique?</label>
-                            <textarea class="form-control" id="q6" name="q6" placeholder="Enter response"></textarea>
-                        </div>
-                         <div class="form-group">
-                            <label for="q7">Qn 7: Do you prefer AutoComPaste or Traditional copy-paste technique (Ctrl-C + Ctrl-V) based on the following text granularity:</label>
-                            <br />
-                            <label for="q7a">A. Word</label>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="q7a" id="optionsRadios1" value="Word:AutoComPaste ">
-                                AutoComPaste 
+                                <input type="radio" name="q6d" id="optionsRadios1" value="Paragraph:Type">
+                                Type
                               </label>
                             </div>
                             <div class="radio">
                               <label>
-                                <input type="radio" name="q7a" id="optionsRadios2" value="Word:Copy-paste">
-                                Traditional copy-paste technique (Ctrl-C + Ctrl-V)
+                                <input type="radio" name="q6d" id="optionsRadios2" value="Paragraph:Copy-paste">
+                                Copy-paste
                               </label>
                             </div>
-                        </div>
-                         <div class="form-group">
-                            <label for="q7b">B: Phrase</label>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="q7b" id="optionsRadios1" value="Phrase:AutoComPaste">
-                                AutoComPaste 
-                              </label>
-                            </div>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="q7b" id="optionsRadios2" value="Phrase:Copy-paste">
-                                Traditional copy-paste technique (Ctrl-C + Ctrl-V)
-                              </label>
-                            </div>
-                        </div>
-                         <div class="form-group">
-                            <label for="q7c">C: Sentence</label>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="q7c" id="optionsRadios1" value="Sentence:AutoComPaste">
-                                AutoComPaste 
-                              </label>
-                            </div>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="q7c" id="optionsRadios2" value="Sentence:Copy-paste">
-                                Traditional copy-paste technique (Ctrl-C + Ctrl-V)
-                              </label>
-                            </div>
-                        </div>
-                         <div class="form-group">
-                            <label for="q7d">D: Paragraph</label>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="q7d" id="optionsRadios1" value="Paragraph:AutoComPaste">
-                                AutoComPaste 
-                              </label>
-                            </div>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="q7d" id="optionsRadios2" value="Paragraph:Copy-paste">
-                                Traditional copy-paste technique (Ctrl-C + Ctrl-V)
-                              </label>
-                            </div>
-                        </div>
-                         <div class="form-group">
-                            <label for="q8">Qn 8: Do you prefer AutoComPaste or Traditional copy-paste technique (Ctrl-C + Ctrl-V) based on the following usage scenarios</label>
-                            <br />
-                            <label for="q8a">A: Single Window</label>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="q8a" id="optionsRadios1" value="SingleWindow:AutoComPaste ">
-                                AutoComPaste 
-                              </label>
-                            </div>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="q8a" id="optionsRadios2" value="SingleWindow:Copy-paste">
-                                Traditional copy-paste technique (Ctrl-C + Ctrl-V)
-                              </label>
-                            </div>
-                        </div>
-                         <div class="form-group">
-                            <label for="q8b">B: Multiple Window</label>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="q8b" id="optionsRadios1" value="MultipleWindow:AutoComPaste">
-                                AutoComPaste 
-                              </label>
-                            </div>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="q8b" id="optionsRadios2" value="MultipleWindow:Copy-paste">
-                                Traditional copy-paste technique (Ctrl-C + Ctrl-V)
-                              </label>
-                            </div>
-                        <div class="form-group">
-                            <label for="q9">Qn 9: Will you use AutoComPaste as a replacement to Traditional copy-paste technique (Ctrl-C + Ctrl-V) in future?</label>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="q9" id="optionsRadios1" value="Very Likely">
-                                Very Likely 
-                              </label>
-                            </div>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="q9" id="optionsRadios2" value="Likely">
-                                Likely
-                              </label>
-                            </div>
-                             <div class="radio">
-                              <label>
-                                <input type="radio" name="q9" id="optionsRadios3" value="Unlikely">
-                                Unlikely
-                              </label>
-                            </div>
-                             <div class="radio">
-                              <label>
-                                <input type="radio" name="q9" id="optionsRadios4" value="Very Unlikely">
-                                Very Unlikely
-                              </label>
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="q10">Qn 10. Will you use AutoComPaste as a complement to Traditional copy-paste technique (Ctrl-C + Ctrl-V) in future?</label>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="q10" id="optionsRadios1" value="Very Likely">
-                                Very Likely 
-                              </label>
-                            </div>
-                            <div class="radio">
-                              <label>
-                                <input type="radio" name="q10" id="optionsRadios2" value="Likely">
-                                Likely
-                              </label>
-                            </div>
-                             <div class="radio">
-                              <label>
-                                <input type="radio" name="q10" id="optionsRadios3" value="Unlikely">
-                                Unlikely
-                              </label>
-                            </div>
-                             <div class="radio">
-                              <label>
-                                <input type="radio" name="q10" id="optionsRadios4" value="Very Unlikely">
-                                Very Unlikely
-                              </label>
-                            </div>
-                        </div>
-
                         </div>
                         <button type="submit" class="btn btn-primary btn-lg">Submit</button>
                     </form>
